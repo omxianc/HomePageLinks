@@ -29,7 +29,7 @@ It is strongly recommended not to store passwords or any confidential informatio
 **Interface**
 
 You can customize the interface parameters of the page (borders, colors, font size, background image) in the css/default-dark-theme.css file. Only change the variable values.
-You can also choose other color themes .css, create your own themes, and connect them in index.html, in the section <head>, <!-- interface themes -->
+You can also choose other color themes .css, create your own themes, and connect them in index.html, in the section: <head>, interface themes.
 
 
 Donate:
