@@ -1,7 +1,11 @@
 ![default-dark](https://github.com/omxianc/HomePageLinks/assets/47922358/7cf49bbb-9d58-47e4-a27c-fb0b717d9275)
 ![gruvbox-dark](https://github.com/omxianc/HomePageLinks/assets/47922358/fa51ffdc-a68f-4665-9eab-ab03f5e40ff1)
 
-
+This is simple page with lists of links for quick access. This page can be used to save important and frequently used links.
+To add a link, you need to edit **index.html** with any text editor.
+The **HomePageLinks** folder with your links can be saved to a flash drive, transferred between computers, placed on your server, and wherever you want.
+Also, on this page you can record notes that are saved only in the local storage of your Internet browser.
+If you like this solution. Download or clone **HomePageLinks** to any location on your disk, then run **index.html** and the page will open in the browser. You can make **HomePageLinks** your home page in your browser settings.
 
 **Launching HomePageLinks 1.0**
 
@@ -17,7 +21,7 @@ Open index.html with any text editor. Then, edit the links array in it: add your
 
 You can add small notes to the page.
 Important: Notes are only saved in the browser's local storage. If you move the HomePageLinks folder to another device or open it with a different browser, your notes will not be displayed.
-It is strongly recommended not to store passwords or any confidential information in notes.
+It is strongly recommended not to store passwords or any confidential information in Notes.
 
 
 **Interface**
