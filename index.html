@@ -1,0 +1,97 @@
+<!-- Informing the browser how to handle this page -->
+<!DOCTYPE html>
+<!-- Document wrapper, specifying the content language -->
+<html lang="ru">
+	<!-- Page header, container for other important data -->
+	<head>
+		<!-- Page title in the browser -->
+		<title>HomePageLinks</title>
+		<!-- Responsive -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<!-- Connecting CSS -->
+		
+		<!-- Interface themes. One of these lines should be uncommented to apply the theme on the page: -->
+			<link rel="stylesheet" href="css/default-dark-theme.css"/>
+			<!-- <link rel="stylesheet" href="css/gruvbox-dark-theme.css"/> -->
+			<!-- <link rel="stylesheet" href="css/aerin-dark-theme.css"/> -->
+			<!-- <link rel="stylesheet" href="css/gentleness-dark-theme.css"/> -->
+			<!-- <link rel="stylesheet" href="css/cream-cofee-dark-theme.css"/> -->
+			<!-- <link rel="stylesheet" href="css/sketchy-dark-theme.css"/> -->
+
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Page encoding -->
+		<meta charset="UTF-8">
+	</head>
+	
+
+<body>
+	
+	<!-- Element for displaying lists of links -->
+	<div id="linksContainer" class="linksCont"></div>
+	
+	<!-- Element for displaying notes -->
+	<div class="block_infa">
+		<div class="notesHeaderAndEditButton">
+			<h1 class="h1notes">Notes</h1>
+			<button class="editButton" onclick="toggleVisibility()" title="Attention! Notes are stored in unencrypted form in the local storage of the browser. It is not recommended to save passwords and other confidential information here.">&#9998;</button>
+		</div>
+		
+		<input class="content noteInput" type="text" id="note-input" onkeypress="handleKeyPress(event)" placeholder="Enter note. Press Enter or +">
+		<button class="content addButton" onclick="addNote()">+</button>
+		<br>
+		<button class="content deleteButton" onclick="deleteSelectedNotes()" title="delete note">&#128465;</button>
+		
+		<div class="notesContainer" id="notes-container" ></div>
+	</div>
+
+	<script>
+		// Array of link objects, each object contains a URL and link text
+
+		// Edit the links array, add your links, create link lists. Observe the correct array structure with all punctuation and brackets:
+		// ["list name",
+		//		{ url: "link", text:"text"},
+		//		{ url: "link", text:"text"}
+		// ]
+		// Save (Ctrl+S) the index.html file, reload the page to see the changes in the browser.
+		var links = [//array start, do not edit this line
+		
+			["videos",
+				{ url: "https://www.youtube.com/", text: "youtube" },
+				{ url: "https://odysee.com/", text: "odysee" },
+				{ url: "https://www.video-example-site.com", text: "video site" },
+				{ url: "https://www.video-example-site.com", text: "video site 2" }
+				
+			],
+			["search",
+				{ url: "https://start.duckduckgo.com/", text: "duckduckgo" },
+				{ url: "https://www.google.com/", text: "google" }
+			],
+			["social media",
+				{ url: "https://example-social.com", text: "social site 1" },
+				{ url: "https://another-social-site.com", text: "social site 2" },
+				{ url: "https://another-social-site.com", text: "social site 3" }
+			],
+			["news",
+				{ url: "https://example-news.com", text:"news 1"},
+				{ url: "https://example-news.com", text:"news 2"}
+				
+		 	],
+			["about HomePageLinks",
+				{ url: "https://twilight-grill-4ba.notion.site/About-HomePageLinks-1-0-7fc4b0fca4d74250885e13c1d5b4bea2?pvs=4", text: "readme"}
+                
+
+			]
+			
+		];//array end, do not edit this line
+	</script>
+
+	
+	<!-- Script for displaying link lists -->
+	<script src="js/linkListFunction.js"></script>
+	<!-- Script for displaying notes -->
+	<script src="js/notesFunction.js"></script>
+	
+
+</body>
+</html>

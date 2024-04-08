@@ -1,0 +1,85 @@
+:root{
+
+	/* Page background */
+        /* [color theme] page background color */
+	    --pageBackgroundColor: #41443a;
+
+        /* Background image */
+        --wallpaper: none;
+
+		/* Uncomment one of these lines if you want to set a background image,
+		or copy the URL and paste it instead of none */
+        /* --wallpaper: url('../img/wallhaven-3kkrrd.png'); */
+	    /* --wallpaper: url('../img/wallhaven-698995.jpg'); */
+	    /* --wallpaper: url('../img/wallhaven-v9z2rm.png'); */
+        /* Additional background images should be placed in the img folder */
+
+	/* Link list block */
+
+		/* Border radius */
+		--border-radius: 10px;
+
+		/* [color theme] block border (thickness, style, color) */ 
+		--ListBorder: 1px solid rgba(130, 132, 125, 0.5);
+
+		/* [color theme] block background color */ 
+		--BlockBckgColor: rgba(130, 132, 125, 0.5);
+
+		/* Block background blur */
+		--BlockBlur: blur(1px);
+
+		/* Gap between blocks */
+		--BlockGap: 6px;
+		
+		
+	/* List title */
+
+		/* [color theme] site list title color */
+		--h2ofSiteListColor:#d3d3c0;
+		
+		/* [color theme] site list title background */
+		--h2BackgroundColor: rgb(75, 85, 51);
+		
+		/* Title text size */
+		--h2fontSize: 25px;
+
+
+	/* Link */
+
+		/* Link text size */
+		
+		--liFontSize: 18px;
+		
+		/* [color theme, text] link text color */
+		--aColor: #d8e0ce;
+		
+		/* [color theme] link background on hover */
+		--HoverBckgColor:  rgba(194,195,191, 0.3); 
+
+
+	/* Notes */
+
+		/* Input field background color */
+		--InputBckgColor: #9bb1ac;
+		
+		/* [color theme] notes title text color */
+		--h1NotesTextColor: #e1e1df; 
+
+		/* [color theme, text] note text color */
+		--NoteColor:#c4cdba;
+
+		/* [color theme] button background color */
+		--ButtonBckgColor:rgba(133,136,128, 0.3);
+
+		/* [color theme] button text color */
+		--ButtonTextColor:#e1e1df;
+
+		/* [color theme] button border */
+		--ButtonBorder:1px solid #c2c3bf;
+
+		/* Note text size */
+		--NotesTextSize: 18px;
+
+
+	
+}
