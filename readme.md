@@ -34,7 +34,7 @@ You can also choose other color themes .css, create your own themes, and connect
 
 Donate:
 
-https://www.donationalerts.com/r/omxian
+[donationalerts](https://www.donationalerts.com/r/omxian)
 
-https://ko-fi.com/omxian
+[ko-fi](https://ko-fi.com/omxian)
 
